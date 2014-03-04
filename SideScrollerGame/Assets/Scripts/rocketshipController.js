@@ -17,10 +17,30 @@ function OnGUI()
 	GUI.Label(Rect(110,5,100,50),"Lives: "+lives);
 }
 
-
+function OnTriggerEnter(other:Collider)
+{
+	//space ship got hit by a UFO
+	if(other.gameObject.tag=="enemy")
+	{
+		//decrease lives by 1
+		lives--;
+		
+		//destroy the ufo
+		Destroy(other.gameObject);
+		
+		//all lives used up, player dies.
+		if (lives <= 0)
+		{
+			//destroy the rocketship
+			Destroy(this.gameObject);
+		}
+		
+	
+	}
+}
 
 function Start () {
-
+	lives = 10;
 }
 
 function Update () {
