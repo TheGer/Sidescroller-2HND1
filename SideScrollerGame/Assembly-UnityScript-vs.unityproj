@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\laserController.js" />
      <Compile Include="Assets\Scripts\laserShooter.js" />
      <Compile Include="Assets\Scripts\rocketshipController.js" />
+     <Compile Include="Assets\Scripts\ufoController.js" />
      <Compile Include="Assets\Scripts\ufoGeneratorController.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
