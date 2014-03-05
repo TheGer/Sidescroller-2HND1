@@ -5,8 +5,20 @@ var bottomMargin:int;
 var moveUp:boolean;
 var moveDown:boolean;
 
+var enemylaser:Rigidbody;
+
+function shootLaser()
+{
+	//shoot the laser
+	Instantiate(enemylaser,transform.position,transform.rotation);
+
+}
+
+
 
 function Start () {
+	//ufos will shoot half a second after they spawn and every second after
+	InvokeRepeating("shootLaser",0.5,1.0);
 	topMargin = 4;
 	bottomMargin = -4;
 	

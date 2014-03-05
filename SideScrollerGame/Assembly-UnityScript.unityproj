@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\backgroundController.js" />
      <Compile Include="Assets\Scripts\cameraController.js" />
+     <Compile Include="Assets\Scripts\enemylaserController.js" />
      <Compile Include="Assets\Scripts\laserController.js" />
      <Compile Include="Assets\Scripts\laserShooter.js" />
      <Compile Include="Assets\Scripts\rocketshipController.js" />

@@ -1,14 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ufoController.js">
     <Files>
-      <File FileName="Assets\Scripts\ufoController.js" Line="10" Column="2" />
-      <File FileName="Assets\Scripts\cameraController.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\backgroundController.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ufoGeneratorController.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\rocketshipController.js" Line="32" Column="18" />
-      <File FileName="Assets\Scripts\laserShooter.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\laserController.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\enemylaserController.js" Line="30" Column="26" />
+      <File FileName="..\..\Sidescroller-2HND2\SideScroller\Assets\Scripts\rocketshipController.js" Line="17" Column="26" />
+      <File FileName="Assets\Scripts\laserController.js" Line="34" Column="2" />
+      <File FileName="Assets\Scripts\ufoController.js" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
