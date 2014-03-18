@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\rocketshipController.js" />
      <Compile Include="Assets\Scripts\ufoController.js" />
      <Compile Include="Assets\Scripts\ufoGeneratorController.js" />
+     <Compile Include="Assets\explosionController.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
